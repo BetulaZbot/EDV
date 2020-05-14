@@ -1,3 +1,3 @@
 export const remote =  {
-    "COMMON:QUERY:FULLSEOURL": 'jsonp!ATC@GET:/demo/data',
+    "COMMON:QUERY:FULLSEOURL": 'jsonp!DEMO@GET:/demo/data',
 }

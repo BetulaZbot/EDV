@@ -1,4 +1,4 @@
-import { db, table, setState } from 'core-dbjs'
+import { table, setState } from 'core-dbjs'
 //学校-班级-学生
 class Class extends table {
     name
@@ -8,7 +8,7 @@ class Class extends table {
     }
     @setState()
     get teacherList() {
-        return this.selectFrom("People").where("type == 1").findAll(true);;
+        return this.selectFrom("People").where("type == 1").findAll(true);
     }
     @setState()
     get studentList() {

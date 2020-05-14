@@ -5,7 +5,6 @@
 
 import * as Model from 'core-curl'
 import * as $ from 'axios'
-import * as is from 'is'
 import { Platform } from 'core-element'
 
 

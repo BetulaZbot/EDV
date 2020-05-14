@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint src  --fix",
+    "lint:create": "eslint --init"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +19,13 @@
     "@babel/preset-react": "^7.0.0",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
+    "@typescript-eslint/parser": "^2.32.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-runtime": "^6.23.0",
     "css-loader": "^3.2.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.19.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.12.0",
@@ -37,11 +43,10 @@
     "axios": "^0.19.2",
     "core-curl": "0.0.5",
     "core-dbjs": "0.0.7",
-    "core-dbjs-connect": "0.0.19",
+    "core-dbjs-connect": "0.0.20",
     "core-element": "0.0.9",
     "core-event": "0.0.10",
     "core-manager": "0.0.2",
-    "jquery": "^3.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2"
