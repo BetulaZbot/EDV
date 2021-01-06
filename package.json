@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-curl": "0.0.5",
     "core-dbjs": "0.0.7",
     "core-dbjs-connect": "0.0.20",
